@@ -1,0 +1,10 @@
+@font-face {
+   font-family: 'RopaSoftPro-Regular';
+   font-display: swap;
+   src: url('RopaSoftPro-Regular/font.woff');
+}
+@font-face {
+   font-family: 'RopaSoftPro-Light';
+   font-display: swap;
+   src: url('RopaSoftPro-Light/font.woff');
+}
