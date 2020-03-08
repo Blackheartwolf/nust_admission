@@ -1,7 +1,7 @@
 {
   "settings": {
-    "name": "Final_101",
-    "currentPage": "admissionOffice.html",
+    "name": "Nust Admission",
+    "currentPage": "contact.html",
     "theme": {
       "name": "educationm4",
       "title": "EducationM4",
@@ -84,9 +84,21 @@
         "name": "RopaSoftPro-Light",
         "url": null,
         "file": "@PROJECT_PATH@fonts/RopaSoftPro-Light/font.woff"
+      },
+      {
+        "css": "'RopaSoftPro-Regular'",
+        "name": "RopaSoftPro-Regular",
+        "url": null,
+        "file": "@PROJECT_PATH@fonts/RopaSoftPro-Regular/font.woff"
+      },
+      {
+        "css": "'RopaSoftPro-Light'",
+        "name": "RopaSoftPro-Light",
+        "url": null,
+        "file": "@PROJECT_PATH@fonts/RopaSoftPro-Light/font.woff"
       }
     ],
-    "uniqCompNum": 210,
+    "uniqCompNum": 211,
     "versionPublish": "4.11.6",
     "favicon": "@PROJECT_PATH@/assets/images/favi-200x222-128x142-128x142.png",
     "noImageResize": false,
@@ -12390,6 +12402,156 @@
           "_isUserblock": true,
           "_sourceTheme": "educationm4",
           "_cid": "rJxmXf9Lem",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "!isAMP",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "h2, h3, h4, p": {
+              "color": "#ffffff"
+            },
+            ".mbr-overlay": {
+              "z-index": "-1"
+            },
+            ".mbr-iconfont": {
+              "font-size": "48px",
+              "padding-right": "1rem"
+            },
+            "& when (@customStyle)": {
+              ".form-control": {
+                "box-shadow": "none",
+                "margin-bottom": "15px",
+                "padding": "1.07em 1.07em",
+                "background-color": "@fieldColor",
+                "border": "1px solid @borderColor",
+                "color": "@formText",
+                "line-height": "1.43",
+                "min-height": "3.5em",
+                "border-radius": ".25rem",
+                "&:focus, &:hover": {
+                  "border": "1px solid @borderHover",
+                  "background-color": "@fieldHover"
+                }
+              },
+              ".form-group": {
+                "margin-bottom": "1rem"
+              },
+              "input::-webkit-input-placeholder, textarea::-webkit-input-placeholder": {
+                "color": "@formPlaceholder"
+              },
+              "input:-moz-placeholder, textarea:-moz-placeholder": {
+                "color": "@formPlaceholder"
+              },
+              ".jq-selectbox li, .jq-selectbox li": {
+                "background-color": "@fieldColor",
+                "color": "contrast(@fieldColor, #000000, #ffffff, 30%)"
+              },
+              ".jq-selectbox li:hover, .jq-selectbox li.selected": {
+                "background-color": "@fieldHover",
+                "color": "contrast(@fieldHover, #000000, #ffffff, 30%)"
+              },
+              ".jq-selectbox:hover .jq-selectbox__trigger-arrow": {
+                "border-top-color": "@fieldColor"
+              },
+              ".jq-selectbox .jq-selectbox__trigger-arrow": {
+                "border-top-color": "@fieldHover"
+              }
+            },
+            ".subtext when (@showLine)": {
+              "border-top": "1px solid fade(@lineColor, 50%)"
+            },
+            ".media-container-row": {
+              "-webkit-align-items": "center",
+              "align-items": "center"
+            },
+            ".mbr-text": {
+              "color": "#767676"
+            },
+            ".form-block": {
+              "padding": "3rem",
+              "position": "relative",
+              ".bg": {
+                "position": "absolute",
+                "top": "0",
+                "bottom": "0",
+                "left": "0",
+                "right": "0",
+                "background": "@formBg",
+                "opacity": "@formOpacity",
+                "z-index": "0"
+              },
+              ".form-wrap": {
+                "position": "relative",
+                "z-index": "1"
+              }
+            },
+            "a:not([href]):not([tabindex])": {
+              "color": "#fff"
+            },
+            ".multi-horizontal": {
+              "flex-grow": "1",
+              "-webkit-flex-grow": "1",
+              "max-width": "100%"
+            },
+            ".input-group-btn": {
+              "display": "block",
+              "text-align": "center"
+            },
+            "textarea.form-control": {
+              "resize": "none"
+            },
+            "& when (@reverseContent)": {
+              ".media-container-row": {
+                "-webkit-flex-direction": "row-reverse",
+                "flex-direction": "row-reverse"
+              }
+            },
+            "@media (min-width: 768px)": {
+              ".container > .row > .col-md-6": {
+                "&:first-child": {
+                  "padding-right": "30px"
+                },
+                "&:last-child": {
+                  "padding-left": "30px"
+                }
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".google-map": {
+                "padding-bottom": "2rem"
+              }
+            },
+            "@media (max-width: 767px)": {
+              "h2": {
+                "padding-top": "2rem"
+              }
+            },
+            "@media (max-width: 499px)": {
+              ".block-content": {
+                "padding": "0"
+              },
+              ".form-block": {
+                "padding": "1rem"
+              }
+            }
+          },
+          "_name": "extForm2",
+          "_customHTML": "<section class=\"mbr-section extForm\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&amp;&amp;bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"formstyler, datepicker\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Form on Left/Right\" name=\"reverseContent\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Form Title\" name=\"showFormTitle\" checked=\"\">\n        <input type=\"color\" title=\"Form BG Color\" name=\"formBg\" value=\"#fcae17\">\n        <input type=\"range\" title=\"Form BG Opacity\" name=\"formOpacity\" min=\"0\" max=\"1\" value=\"0.9\" step=\"0.1\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Show Line\" name=\"showLine\" condition=\"showSubText\" checked=\"\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#fcae17\" condition=\"showLine &amp;&amp; showSubText\">\n        <input type=\"checkbox\" title=\"Show SubText\" name=\"showSubText\" checked=\"\">\n\n        <header>Style</header>\n        <input type=\"checkbox\" name=\"customStyle\" title=\"Custom Style\" checked=\"\">\n        <input type=\"color\" name=\"fieldColor\" title=\"Field\" value=\"#f5f5f5\" condition=\"customStyle\">\n        <input type=\"color\" name=\"fieldHover\" title=\"Field Hover\" value=\"#ffffff\" condition=\"customStyle\">\n        <input type=\"color\" name=\"borderColor\" title=\"Border\" value=\"#1b2c5d\" condition=\"customStyle\">\n        <input type=\"color\" name=\"borderHover\" title=\"Border Hover\" value=\"#fcae17\" condition=\"customStyle\">\n        <input type=\"color\" name=\"formText\" title=\"Text\" value=\"#000000\" condition=\"customStyle\">\n        <input type=\"color\" name=\"formPlaceholder\" title=\"Placeholders\" value=\"#000000\" condition=\"customStyle\">\n        \n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#1b2c5d\" selected=\"\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay&amp;&amp;bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay&amp;&amp;bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&amp;&amp;bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n   <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-md-6 col-lg-6 block-content\">\n                <div class=\"form-block\">\n                    <div class=\"bg\"></div>\n                    <div class=\"form-wrap\" mbr-form=\"\">\n<!--Formbuilder Form-->\n<form action=\"blackheartdv@gmail.com\" name=\"WEBSITE QUESTION!\" method=\"POST\" class=\"mbr-form form-with-styler\">\n<div class=\"form-row\">\n<div hidden=\"hidden\" data-form-alert=\"\" class=\"alert alert-success col-12\">Thanks for filling out the form!</div>\n<div hidden=\"hidden\" data-form-alert-danger=\"\" class=\"alert alert-danger col-12\">\n</div>\n</div>\n<div class=\"dragArea form-row\">\n<div class=\"col-md-12\">\n<h4 mbr-theme-style=\"display-5\" class=\"mbr-fonts-style mb-4 mbr-fonts-style\" mbr-if=\"showFormTitle\">Do you have any questions?</h4>\n</div>\n<div class=\"col-md-12 form-group \" data-for=\"name\">\n<input type=\"text\" name=\"name\" placeholder=\"Your Name\" data-form-field=\"Name\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control input\" value=\"\">\n</div>\n<div data-for=\"phone\" class=\"col-lg-6 col-md-12 col-sm-12 form-group\">\n<input type=\"tel\" name=\"phone\" placeholder=\"Phone\" data-form-field=\"phone\" mbr-theme-style=\"display-7\" class=\"form-control\" required=\"required\" pattern=\"[0-9]\" value=\"\">\n</div>\n<div data-for=\"email\" class=\"col-md-12 form-group\" style=\"transform: translateZ(0px);\">\n<input type=\"text\" name=\"email\" placeholder=\"Email\" data-form-field=\"Email\" mbr-theme-style=\"display-7\" class=\"form-control input\" required=\"required\" value=\"\">\n</div>\n<div data-for=\"message\" class=\"col-md-12 form-group \">\n<textarea name=\"message\" placeholder=\"Message\" data-form-field=\"Message\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control input\"></textarea>\n</div>\n<div class=\"col-md-12 input-group-btn mt-2\" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\">\n<a data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" type=\"submit\" class=\"btn btn-primary btn-form btn-bgr\">SEND MESSAGE</a>\n</div>\n</div>\n</form><!--Formbuilder Form-->\n</div>\n                </div>\n            </div>\n            <div class=\"col-md-6 col-lg-6\">\n                <div class=\"text-block\">\n                    <h2 class=\"mb-4 mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .mbr-section-btn\">Let’s Get <b>in Touch</b></h2>\n                    <h3 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n                        Whatever types of questions you'll have, feel free to get in touch with us!\n                    </h3>\n                    <p class=\"mb-4 form-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".form-text\">Click any text to edit or style it. Select text to insert a link. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add themes.</p>\n                    <div class=\"mbr-section-btn mb-5\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\">\n                        <a class=\"btn btn-md btn-white-outline btn-bgr\" href=\"https://mobirise.com\">MORE</a>\n                    </div>\n                </div>\n                <p class=\"mb-4 mbr-fonts-style subtext\" mbr-theme-style=\"display-7\" mbr-class=\"{'pt-5': showLine}\" mbr-if=\"showSubText\">*We dont share your personal info with anyone. Check out our privacy policy for more information.</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rSFuSg3Rev",
+          "_anchor": "extForm2-5u",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
